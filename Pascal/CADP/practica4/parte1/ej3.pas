@@ -30,7 +30,7 @@ var n: integer;
 procedure imprimirDesdeUno(v: vector; dimL: integer);
 var i: integer;
 begin
-  writeln('te imprimo esta pa');
+  writeln('imprimo');
 	for i:= 1 to dimL do
 		writeln(v[i]);
 end;
@@ -38,7 +38,7 @@ end;
 procedure imprimirDesdeAtras(v: vector; dimL: integer);
 var i: integer;
 begin 
-  writeln('te imprimo esta pa');
+  writeln('imprimo');
   for i:= dimL downto 1 do
     writeln(v[i]);
 end;
@@ -48,7 +48,7 @@ var i, mitad, boca: integer;
 begin
   mitad:= dimL DIV 2;
   boca:= mitad + 1;
-  writeln('te imprimo esta pa');
+  writeln('imprimo');
   (*for i:= mitad downto 1 do
     writeln(v[i]);*)
   for i:= boca to dimL do
