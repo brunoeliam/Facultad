@@ -17,8 +17,8 @@ public class mainRecital {
         System.out.println("EVENTO: ");
         System.out.println("ingrese motivo del evento (1,2,3); nombre del contratante, dia y nombre de la banda");
         Evento E = new Evento(Lector.leerInt(), Lector.leerString(), Lector.leerInt(), Lector.leerString(), cantidadTemas);
-        E.agregarTema("los conchaGRANDE");
-        E.agregarTema("los pitoCORTO");
+        E.agregarTema("love yourz");
+        E.agregarTema("over now");
         System.out.println("-------------------------------------");
         
         System.out.println("GIRA: ");
