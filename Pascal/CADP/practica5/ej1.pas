@@ -17,4 +17,4 @@ begin
   writeln(sizeof(pc^), ' bytes');           //   dinamica: 38 + 1
 end. *)
 
-(* este lo hiciste mal, es 4 4 4 51 51, porque el asignarle no modifica*)
+(* *)
