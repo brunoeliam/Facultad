@@ -20,8 +20,8 @@ public class ej3 {
 
         estan.Estante(dimF);
 
-        Autor A1 = new Autor("Juan","Sexologo","entino");
-        Libro L1 = new Libro("Mujercitas","Trop",A1,"asd");
+        Autor A1 = new Autor("Juan","rwgergerg","entino");
+        Libro L1 = new Libro("rthres","Tfgs",A1,"asd");
 
         estan.agregarLibro(L1); // (iii)
 
