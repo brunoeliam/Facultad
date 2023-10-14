@@ -26,7 +26,7 @@ public class ej3 {
         estan.agregarLibro(L1); // (iii)
 
         Autor A2 = new Autor("Pedro","Ssss","Argno");
-        Libro L2 = new Libro("Mujer","Trapo",A2,"asdasdd");
+        Libro L2 = new Libro("afggrr","sdfsdfg",A2,"asdasdd");
 
         estan.agregarLibro(L2);
 
@@ -34,7 +34,7 @@ public class ej3 {
 
         estan.estaLleno();     // (ii)
 
-        System.out.println(estan.getLibroPorTitulo("Mujercitas")); // B (iv)
+        System.out.println(estan.getLibroPorTitulo("test")); // B (iv)
      
     }
 }    
