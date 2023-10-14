@@ -65,7 +65,7 @@ procedure maximo (tit: str; clics: integer; var titMax: str; var max: integer);
 
 procedure imprimir (v: vector; cantMg: integer; titMax: str);
   begin
-    writeln('cantidad total de me gustas en fotos del autor falopa: ' ,cantMg);
+    writeln('cantidad total de me gustas en fotos de Art Vandelay: ' ,cantMg);
     writeln('titulo de la foto con mas clics: ' ,titMax);
   end;
 
