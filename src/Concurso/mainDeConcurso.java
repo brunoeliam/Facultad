@@ -20,15 +20,15 @@ public class mainDeConcurso {
         Concurso C = new Concurso (dimCanciones, dimCategorias);
         
         /* esto va con lector */
-        can = new Cancion("ejercicio choto", "men at work", 123);
+        can = new Cancion("asfafaf", "men at work", 123);
         C.agregarCancion(0, can);
-        can = new Cancion("matute es gay", "michael", 598);
+        can = new Cancion("matute rewrg", "michael", 598);
         C.agregarCancion(1, can);
         can = new Cancion("counter", "los pibes", 671);
         C.agregarCancion(2, can);
-        can = new Cancion("gonza se la come", "cerati", 550);
+        can = new Cancion("tyety44", "cerati", 550);
         C.agregarCancion(1, can);
-        can = new Cancion("que mierda escribo", "patricia sosa", 987);
+        can = new Cancion("awdadasd", "el indio", 987);
         C.agregarCancion(1, can);
         /*                    */
         
