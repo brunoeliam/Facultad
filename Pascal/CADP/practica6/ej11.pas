@@ -102,5 +102,3 @@ begin
   incisoB(l);
 end.
 
-
-// REVISAR EL PROCEDURE DEL B

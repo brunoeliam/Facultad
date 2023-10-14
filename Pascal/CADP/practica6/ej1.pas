@@ -59,8 +59,8 @@ begin
 end.
 (* 
 a. Indicar qué hace el programa. 
-  // lo que hace es cargar una lista que al principio estaba vacia, esto se realiza hasta que se ingrese el num 0. (FALTO AGREGAR QUE SE AGREGA EN ORDEN INVERSO, ES DECIR ES UN AGREGAR ADELANTE)
+  // lo que hace es cargar una lista que al principio estaba vacia, con lo que se ingresa en orden inverso; esto se realiza hasta que se ingrese el num 0.
 b. Indicar cómo queda conformada la lista si se lee la siguiente secuencia de números: 10 21 13 48 0.
-  // 10 21 13 48  (QUEDA AL REVES: 48 13 21 10)
+  // 48 13 21 10
 c. Implementar un módulo que imprima los números enteros guardados en la lista generada.
 d. Implementar un módulo que reciba la lista y un valor, e incremente con ese valor cada dato de la lista.*)

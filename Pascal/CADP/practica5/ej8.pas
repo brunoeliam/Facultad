@@ -29,9 +29,8 @@ end.
 
 (* Responda: ¿cuánta memoria en total ocupa el programa al ejecutarse? Considere tanto variables estáticas
 como dinámicas, parámetros y variables locales de los módulos.
-a) Hasta la sentencia de la línea 18     46 en estatica, dinamica: 0 (ACA IMPORTANTE CONTE SOLO LAS VARIABLES LOCALES AL PROGRAMA PRINCIPAL)
+a) Hasta la sentencia de la línea 18     46 en estatica, dinamica: 0
 b) Hasta la sentencia de la línea 20     estatica: 46   dinamica: 0
 c) Hasta la sentencia de la línea 23     estatica: 46   dinamica: 40
-d) Hasta la sentencia de la línea 11     estatica:    dinamica:   ???????????
+d) ---
 e) Hasta la sentencia de la línea 25     estatica: 46   dinamica: 40 
-agregar que yo aca no lo hice, pero si dice considere tanto variables etc eso que dice se deberia sumar capaz lo que esta en el modulo y por cada parametro tamb, en este caso 80 con parametros y 4 mas por las variables locales al procedure que aparece. tamb podria ser otra sumar todo todo y no separar en dinamica y estatica *)

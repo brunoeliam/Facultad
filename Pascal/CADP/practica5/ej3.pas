@@ -18,4 +18,4 @@ begin
   writeln(sizeof(n^), ' bytes');       //  
 end.
 
-(* en este aprendi por mi propia cuenta que: para calcular los vectores es la longitud del array * lo que ocupa el tipo de dato que contiene *)
+(* para calcular los vectores es la longitud del array * lo que ocupa el tipo de dato que contiene *)

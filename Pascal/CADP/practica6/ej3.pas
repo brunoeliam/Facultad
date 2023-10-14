@@ -60,7 +60,7 @@ begin
   writeln('Ingrese un numero');
   read(valor);
   while (valor <> 0) do begin
-    armarNodo(pri, ult, valor);         // MODIFICADO PARA EL B), EN CASO DEL A) los parametros son solo los 2 q taban
+    armarNodo(pri, ult, valor);         // MODIFICADO PARA EL B), EN CASO DEL A) los parametros son solo los 2 que estaban
     writeln('Ingrese un numero');
     read(valor);
   end;
