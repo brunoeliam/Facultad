@@ -20,13 +20,13 @@ public class ej3 {
 
         estan.Estante(dimF);
 
-        Autor A1 = new Autor("Juan","Sexologo","entino");
-        Libro L1 = new Libro("Mujercitas","Trop",A1,"asd");
+        Autor A1 = new Autor("Juan","adafag","entino");
+        Libro L1 = new Libro("wgwgeweg","Trop",A1,"asd");
 
         estan.agregarLibro(L1); // (iii)
 
         Autor A2 = new Autor("Pedro","Ssss","Argno");
-        Libro L2 = new Libro("Mujer","Trapo",A2,"asdasdd");
+        Libro L2 = new Libro("aefa","afaf",A2,"asdasdd");
 
         estan.agregarLibro(L2);
 
@@ -34,7 +34,7 @@ public class ej3 {
 
         estan.estaLleno();     // (ii)
 
-        System.out.println(estan.getLibroPorTitulo("Mujercitas")); // B (iv)
+        System.out.println(estan.getLibroPorTitulo("prueba")); // B (iv)
      
     }
 }    
