@@ -17,7 +17,7 @@ type
 procedure cargar (var v: vector);
 var i: integer;
   begin
-    writeln('ingresate unos valores para cargarlo pa ');
+    writeln('ingresate unos valores para cargarlo ');
     for i:= 1 to full do 
       begin
         readln(v[i]);
