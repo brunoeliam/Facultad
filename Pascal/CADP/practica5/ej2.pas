@@ -32,4 +32,3 @@ begin
   writeln(sizeof(prod), ' bytes');        //  16
 end.
 
-(* lo hiciste flama pero te cagaron con los valores, en vez de 16 va 24 no se por que*)
