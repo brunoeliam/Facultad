@@ -8,7 +8,7 @@ Nota: Realizar todas las validaciones necesarias. *)
 
 program ej2;
 const
-  dimF = 10; // 500 dale dale ahi va
+  dimF = 10; // en vez de 500 para probar rapido
 type
   rango = 1..dimF;
   vector = array [rango] of string;
