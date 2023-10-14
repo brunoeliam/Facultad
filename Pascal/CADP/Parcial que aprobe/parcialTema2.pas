@@ -62,7 +62,7 @@ procedure cargarLista (var l: lista);                       // SE DISPONE
 var ult: lista; s: sesion;
   begin
     leerSesion(s);
-    while (s.titulo <> 'pija') do begin
+    while (s.titulo <> 'prueba') do begin
       agregarAtras(l, ult, s);
       leerSesion(s);
     end;
@@ -153,7 +153,7 @@ var
   l: lista;
   v: vector;
 begin
-	cargarLista(l);     // SE DISPONE
+  cargarLista(l);     // SE DISPONE
   inicializarV(v);
   incisos(l, v);
 end.
