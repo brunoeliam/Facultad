@@ -13,7 +13,7 @@ procedure cargar (var v: vector; var dimL: integer);
 var n: integer;
   begin
     dimL:= 0;
-    writeln('ingresate unos valores para cargarlo pa'); readln(n);
+    writeln('ingresate unos valores para cargarlo '); readln(n);
     while (n <> 0) and (dimL < 10) do
       begin
         dimL:= dimL + 1;
